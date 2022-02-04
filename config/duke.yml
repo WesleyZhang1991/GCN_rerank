@@ -1,0 +1,20 @@
+COMMON:
+    DATASET: 'duke'
+    RERANK_TYPE: 'gcrv'
+    GAL_PKL: "./features/duke/test_gallery_reid.pkl"
+    PRB_PKL: "./features/duke/test_probe_reid.pkl"
+
+PVG:
+    ENABLE_PVG: False
+    CACHE_P: False
+    LA: 10.0
+    
+GCR:
+    ENABLE_GCR: True
+    BETA1: 0.2
+    BETA2: 0.2
+    SCALE: 0.3
+    K1: 13
+    K2: 3
+    GAL_ROUND: 3
+    MODE: 'nonsym'
