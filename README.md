@@ -1,4 +1,4 @@
-# [ICASSP] Graph Convolution for Re-ranking in Person Re-identification
+# [Graph Convolution for Re-ranking in Person Re-identification](https://ieeexplore.ieee.org/document/9747298)
 The official repository for GCR rerank, a GCN-based reranking method for both image and video re-ID.
 
 ## Environment
