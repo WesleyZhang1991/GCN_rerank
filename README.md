@@ -6,7 +6,7 @@ The official repository for GCR rerank, a GCN-based reranking method for both im
 We use python 3.7/torch 1.6/torchvision 0.7.0.
 
 ## Extracted features
-We provide Market1501/MARS features from [reid-strong-baseline](https://github.com/michuanhaohao/reid-strong-baseline) at [Google Drive](https://drive.google.com/drive/folders/1iYt4n88dv2Bmn5ccOfhYo4aVCZUgWIaB?usp=sharing).
+We provide Market1501/MARS features from [reid-strong-baseline](https://github.com/michuanhaohao/reid-strong-baseline) at [Google Drive](https://drive.google.com/drive/folders/13pzDLmdbal2SpVCIaa4yczx7aPJK8yVx?usp=share_link).
 
 ## Command Lines
 Run GCRV rerank with basic settings on Market1501
