@@ -1,9 +1,16 @@
-# [Graph Convolution for Re-ranking in Person Re-identification](https://ieeexplore.ieee.org/document/9747298)
-The official repository for GCR rerank, a GCN-based reranking method for both image and video re-ID.
+# Graph Convolution Based Efficient Re-Ranking for Visual Retrieval, submitted to TMM
+The official repository for GCR rerank, a GCN-based reranking method for image re-ID, video re-ID, and image retrieval.
 
 ## Environment
 
 We use python 3.7/torch 1.6/torchvision 0.7.0.
+
+## Datasets
+image re-ID: Market, Duke, MSMT, CUHK03
+
+video re-ID: MARS
+
+image retrieval: ROxford, RParis
 
 ## Extracted features
 We provide Market1501/MARS features from [reid-strong-baseline](https://github.com/michuanhaohao/reid-strong-baseline) at [Google Drive](https://drive.google.com/drive/folders/13pzDLmdbal2SpVCIaa4yczx7aPJK8yVx?usp=share_link).
@@ -32,15 +39,3 @@ python eval_rerank.py --config_file=config/market.yml COMMON.RERANK_TYPE baselin
 
 ## Thanks
 State-of-the-art reranking method inlucidng [K_reciprocal](https://github.com/zhunzhong07/person-re-ranking), [ECN](https://github.com/pse-ecn/expanded-cross-neighborhood), [LBR](https://github.com/CoinCheung/SFT-ReID)
-
-## Citation
-
-If you find our work useful in your research, please consider citing:
-```
-@inproceedings{zhang2022graph,
- title={Graph Convolution for Re-ranking in Person Re-identification},
- author={Zhang, Yuqi and Qian Qi and Liu Chong and Chen, Weihua and Wang Fan and Li Hao and Jin Rong},
- journal={arXiv preprint arXiv:2107.02220},
- year={2022}
-}
-```
