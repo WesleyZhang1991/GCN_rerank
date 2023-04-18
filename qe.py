@@ -34,5 +34,6 @@ def QE(_cfg, query_features, gallery_features, prb_labels, gal_labels):
 
     return q_g_dist
 
+
 if __name__ == '__main__':
     pass

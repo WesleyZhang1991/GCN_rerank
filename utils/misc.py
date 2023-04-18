@@ -30,4 +30,3 @@ def euclidean_dist(x, y, eps=1e-12, squared=False):
     dist = dist - 2 * mx.nd.dot(x, y.T)
     dist = mx.nd.clip(dist, eps, np.inf)
     return dist if not squared else mx.nd.sqrt(dist)
-

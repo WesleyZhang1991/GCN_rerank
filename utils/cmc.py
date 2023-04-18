@@ -154,7 +154,6 @@ def ReRank(probFea,galFea,k1=20,k2=6,lambda_value=0.3):
     
     jaccard_dist = np.zeros_like(original_dist,dtype = np.float32)
 
-    
     for i in range(query_num):
         temp_min = np.zeros(shape=[1,gallery_num],dtype=np.float32)
         indNonZero = np.where(V[i,:] != 0)[0]

@@ -340,6 +340,5 @@ def debug_time():
     print(time.time()-start_time)
     np.testing.assert_array_equal(rank_1, rank_2)
 
-
 if __name__ == '__main__':
     debug_time()

@@ -95,6 +95,5 @@ def main():
     prb_feats, prb_labels = mergesetfeat(prb_feats, prb_labels, prb_tracks)
     gal_feats, gal_labels = mergesetfeat(gal_feats, gal_labels, gal_tracks)
 
-
 if __name__ == '__main__':
     main()

@@ -89,7 +89,6 @@ def eval_feature(query_features, gallery_features, query_ids, query_cam_ids, gal
 
     print('mAP = %f , r1 precision = %f , r5 precision = %f , r10 precision = %f' % (map, r1, r5, r10))
 
-
 def eval_rank_list(rank_list, query_ids, query_cam_ids, gallery_ids, gallery_cam_ids):
     num_query = len(query_ids)
     num_gallery = len(gallery_ids)

@@ -169,6 +169,5 @@ def main():
 
     eval_rerank_methods(cfg, all_data)
 
-
 if __name__ == '__main__':
     main()

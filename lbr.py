@@ -134,5 +134,6 @@ def LBR(_cfg, query_features, gallery_features, prb_labels, gal_labels):
                 q_g_dist[i, j] = dist
         return q_g_dist
 
+
 if __name__ == '__main__':
     pass
