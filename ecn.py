@@ -1,4 +1,3 @@
-
 """
 Created on Mon Jul 16 12:41:38 2018
 
